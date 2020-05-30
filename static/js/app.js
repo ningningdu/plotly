@@ -1,7 +1,7 @@
 
 async function select_and_plot(value) {
     // read in json file- route is relavant to index.html
-    var data = await d3.json("/samples.json");
+    var data = await d3.json("data/samples.json");
     // var data = await d3.json("https://raw.githubusercontent.com/ningningdu/plotly/master/samples.json");
 
     console.log(data)
